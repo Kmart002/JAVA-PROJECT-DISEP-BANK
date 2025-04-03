@@ -1,0 +1,43 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>DiSEP Bank - 4.0</title>
+</head>
+<body>
+
+<div class='flex items-center justify-between bg-blue-600 text-white px-5 lg:px-10 py-2 text-white w-full'>
+    <div class='flex lg:w-1/2 items-center justify-between'>
+
+        <div class='flex bg-white p-[1px] mr-3 xl:mr-0'>
+            <img src="https://i.ibb.co/C54sXfgp/Photoroom-20250210-163227.png" alt='DiSEP Logo'  class='object-fill w-24'/>
+        </div>
+
+        <nav class='hidden md:flex text-lg xl:text-xl items-center space-x-5 lg:space-x-10 xl:space-x-14'>
+            <a href="/" class='hover:text-primary hover:border-b-2 border-primary hover:scale-110 transition-all duration-200'>
+            Home
+            </a>
+            <a href="/about.jsp" class='hover:text-primary hover:border-b-2 border-primary hover:scale-110 transition-all duration-200'>
+            About Us
+            </a>
+            <a href="/services.jsp" class='hover:text-primary hover:border-b-2 border-primary hover:scale-110 transition-all duration-200'>
+            Services
+            </a>
+            <a href="/contact.jsp" class='hover:text-primary hover:border-b-2 border-primary hover:scale-110 transition-all duration-200'>
+            Contact
+            </a>
+        </nav>
+    </div>
+    <div class="hidden sm:flex items-center justify-center space-x-3">
+        <input type="text" placeholder="Search" class="w-32 md:focus:w-40 lg:focus:w-56 transition-all duration-300 pl-4 pr-10 py-2 border rounded-full bg-white focus:outline-none placeholder:text-gray-300" />
+        <button class="px-2 py-1 border border-white rounded-xl bg-blue-600 text-white hover:bg-white hover:text-blue-600 hover:scale-95 transition-all duration-300 cursor-pointer">Search</button>
+    </div>
+    <div class='md:hidden font-semibold text-2xl'>
+        x
+    </div>
+</div>
+</body>
+</html>
